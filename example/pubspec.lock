@@ -346,10 +346,24 @@ packages:
   unifiedpush:
     dependency: "direct main"
     description:
-      path: ".."
+      path: "../unifiedpush"
       relative: true
     source: path
-    version: "3.0.0"
+    version: "4.0.0"
+  unifiedpush_android:
+    dependency: transitive
+    description:
+      path: "../unifiedpush_android"
+      relative: true
+    source: path
+    version: "1.0.0"
+  unifiedpush_platform_interface:
+    dependency: transitive
+    description:
+      path: "../unifiedpush_platform_interface"
+      relative: true
+    source: path
+    version: "1.0.0"
   vector_math:
     dependency: transitive
     description:
@@ -363,7 +377,7 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.3.1"
+    version: "2.3.3"
   xdg_directories:
     dependency: transitive
     description:
@@ -379,5 +393,5 @@ packages:
     source: hosted
     version: "5.3.1"
 sdks:
-  dart: ">=2.14.0 <3.0.0"
+  dart: ">=2.15.0 <3.0.0"
   flutter: ">=2.5.0"
