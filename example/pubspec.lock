@@ -351,14 +351,14 @@ packages:
     source: path
     version: "4.0.0"
   unifiedpush_android:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       path: "../unifiedpush_android"
       relative: true
     source: path
     version: "1.0.0"
   unifiedpush_platform_interface:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       path: "../unifiedpush_platform_interface"
       relative: true

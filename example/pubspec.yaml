@@ -26,6 +26,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.4
 
+dependency_overrides:
+  unifiedpush_android:
+    path: ../unifiedpush_android
+  unifiedpush_platform_interface:
+    path: ../unifiedpush_platform_interface
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

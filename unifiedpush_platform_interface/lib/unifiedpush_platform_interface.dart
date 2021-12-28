@@ -32,7 +32,7 @@ abstract class UnifiedPushPlatform extends PlatformInterface {
     throw UnimplementedError('registerApp has not been implemented.');
   }
   
-  Future<void> unregister(String token) {
+  Future<void> unregister(String distributor, String token) {
     throw UnimplementedError('unregister has not been implemented.');
   }
 

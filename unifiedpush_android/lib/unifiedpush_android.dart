@@ -43,8 +43,8 @@ class UnifiedPushAndroid extends UnifiedPushPlatform {
   }
   
   @override
-  Future<void> unregister(String token) async {
-    await _channel.invokeMethod(PLUGIN_EVENT_UNREGISTER, [token]);
+  Future<void> unregister(String distributor, String token) async {
+    await _channel.invokeMethod(PLUGIN_EVENT_UNREGISTER, [distributor, token]);
   }
 
   @override

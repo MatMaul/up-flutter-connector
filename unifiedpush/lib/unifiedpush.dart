@@ -122,7 +122,7 @@ class UnifiedPush {
   }
 
   static Future<void> unregister([String instance = "default"]) async {
-    UnifiedPushPlatform.instance.unregister(await getToken(instance));
+    UnifiedPushPlatform.instance.unregister(await getDistributor(), await getToken(instance));
   }
 
   static Future<void> registerAppWithDialog([String instance = "default"]) async {
